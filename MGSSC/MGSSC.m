@@ -4,7 +4,7 @@ addpath(genpath(cd))
 addpath('.\dataset');
 addpath('.\performance');
 addpath('.\tool');
-load ORL
+load ORL_KERNEL
 truth = gnd;
 k = max(gnd);
 K = KERNEL;
